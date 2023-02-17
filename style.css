@@ -12,7 +12,8 @@ body{
     background-color: #032a4a;
 }
 .container{
-    position: relative;
+    margin-top: 80px;
+    /* position: relative; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -93,7 +94,7 @@ left: initial;
 }
 .container .skills .rating input:hover ~ input::before,
 .container .skills .rating input:hover::before,
-.container .skills .rating input:hover ~ input::before,
-.container .skills .rating input:hover::before{
+.container .skills .rating input:checked ~ input::before,
+.container .skills .rating input:checked::before{
     color: #1f9cff;
 }
